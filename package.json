@@ -2,5 +2,11 @@
   "name": "ng-chat-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.2.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js"
+  }
 }
